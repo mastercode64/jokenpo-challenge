@@ -82,6 +82,20 @@ http://localhost:8080/swagger-ui.html
 
 ---
 
+## Running Unit Tests
+
+This project uses **JUnit 5 (JUnit Jupiter)** with Gradle for running unit tests.
+
+### Run all tests
+
+From the root directory of the project, execute:
+
+```bash
+./gradlew test
+```
+
+---
+
 ## How to Play
 
 ### Endpoint
