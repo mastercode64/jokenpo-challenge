@@ -24,7 +24,7 @@ The player sends a move via HTTP request, the server randomly chooses a move, an
 git clone git@github.com:mastercode64/jokenpo-challenge.git
 ```
 
-### 2️⃣ Run the application
+### Run the application
 
 Using Gradle:
 
@@ -35,6 +35,36 @@ Using Gradle:
 Or run directly from your IDE.
 
 The application will start at:
+
+```
+http://localhost:8080
+```
+
+## Running with Docker
+
+This project can also be executed using Docker.
+
+### 1. Build the Docker image
+
+Make sure you are in the root directory of the project (where the Dockerfile is located), then run:
+
+```bash
+docker build -t jokenpo-api .
+```
+
+This command will build a Docker image named `jokenpo-api`.
+
+---
+
+### 2. Run the container
+
+After the image is built, start the container with:
+
+```bash
+docker run -p 8080:8080 jokenpo-api
+```
+
+The application will be available at:
 
 ```
 http://localhost:8080
