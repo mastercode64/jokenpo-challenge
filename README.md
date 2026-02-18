@@ -42,7 +42,7 @@ http://localhost:8080
 
 ---
 
-## 📘 API Documentation (Swagger)
+## API Documentation (Swagger)
 
 After starting the application, access:
 
@@ -52,7 +52,7 @@ http://localhost:8080/swagger-ui.html
 
 ---
 
-## 🎯 How to Play
+## How to Play
 
 ### Endpoint
 
@@ -76,7 +76,7 @@ POST /jokenpo
 
 ---
 
-## ✅ Example Request (curl)
+## Example Request (curl)
 
 ```bash
 curl -X POST http://localhost:8080/jokenpo \
@@ -86,7 +86,7 @@ curl -X POST http://localhost:8080/jokenpo \
 
 ---
 
-## ✅ Example Response
+## Example Response
 
 ```json
 {
@@ -104,7 +104,7 @@ Possible results:
 
 ---
 
-## ❌ Error Handling
+## Error Handling
 
 If the player sends an invalid move:
 
@@ -130,7 +130,7 @@ Status code:
 
 ---
 
-## 🧠 Game Logic
+## Game Logic
 
 The core game rule is implemented inside the `Move` enum:
 
